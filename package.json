@@ -3,8 +3,8 @@
   "version": "v0.0.1",
   "private": true,
   "tingyun": {
-    "cnName": "模板",
-    "enName": "template"
+    "cnName": "我的轻应用",
+    "enName": "my_liteapp"
   },
   "ty_config": {
     "apiRoot": "/o11y-api"
