@@ -22,4 +22,5 @@ interface Window {
     props?: { [key: string]: any };
     location?: Object;
   };
+  [key:string]:any
 }

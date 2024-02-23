@@ -4,6 +4,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import './index.less';
 import { initAppInfo } from './tyContext';
+import { clearSanbox } from './utils';
 
 const config = process.env.CONFIG as any;
 const basename = process.env.NODE_ENV === 'production' ? `/${config.appName}` : '';
@@ -22,7 +23,8 @@ if (window.__POWERED_BY_WUJIE__) {
         });
     };
     window.__WUJIE_UNMOUNT = () => {
-        root.unmount();
+        // root.unmount();
+        clearSanbox(config.appName);
     };
 } else {
     initAppInfo(!!window.__POWERED_BY_WUJIE__).then((res) => {

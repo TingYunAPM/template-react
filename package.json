@@ -14,7 +14,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "@ty-sdk/components": "^0.0.38",
+    "@ty-sdk/components": "^0.0.47",
     "@ty-sdk/core": "^0.1.3",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.66",
